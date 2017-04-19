@@ -15,7 +15,19 @@ public class DateUtilities {
 
      private static DateUtilities instance;
      
-    
+    /**
+     * Singleton support
+     *
+     * @return one and only one global instance
+     */
+    public static DateUtilities getInstance() {
+        if (instance == null) {
+            instance = new DateUtilities();
+        }
+
+        return instance;
+    }
+     
     /**
      *Get unformatted <code>Current Date</code> and time
      * @return the current date and time
