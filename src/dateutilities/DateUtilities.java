@@ -48,7 +48,7 @@ public class DateUtilities {
     }
      
     /**
-     * Format a <code>Date</code> to display the order - month, date, year, hours,minutes, and seconds
+     * Format a <code>Date</code> to display the order - month, date, year
      *
      * @param date - a <code>Date</code> object
      * @return a string date formatted according to the default date pattern
@@ -58,7 +58,7 @@ public class DateUtilities {
         if (date == null) {
             throw new IllegalArgumentException("Date argument cannot be null");
         }
-        DateTimeFormatter format = DateTimeFormatter.ofPattern("MMM d yyyy  hh:mm a");
+        DateTimeFormatter format = DateTimeFormatter.ofPattern("MMM d yyyy");
         String stringDate = date.format(format);
         return stringDate;
      }
