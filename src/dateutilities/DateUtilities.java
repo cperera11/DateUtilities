@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 /**
-     * Singleton utility class to simplify managing and using dates and times.
+     * Date time utility class is to simplify managing and using dates and times.
      * 
      * @author Chathuri Perera, cperera@wctc.edu
      * @version 1.00
