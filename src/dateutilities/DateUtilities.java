@@ -51,7 +51,7 @@ public class DateUtilities {
      * Format a <code>Date</code> to display the order - month, date, year
      *
      * @param date - a <code>Date</code> object
-     * @return a string date formatted according to the default date pattern
+     * @return a string date formatted according to the given date pattern
      * @throws IllegalArgumentException if date is null
      */
      public String getCurrentDateAndTime(LocalDateTime date)throws IllegalArgumentException {
