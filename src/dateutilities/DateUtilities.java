@@ -14,7 +14,7 @@ import java.time.temporal.TemporalAdjusters;
  *
  * @author Chathuri Perera, cperera@wctc.edu
  * @version 1.00
- * @since 1.8
+ * @since 1.08
  */
 public class DateUtilities {
 
